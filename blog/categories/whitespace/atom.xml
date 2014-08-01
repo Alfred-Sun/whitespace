@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Whitespace | My Octopress Blog]]></title>
   <link href="http://themespace.github.io/whitespace/blog/categories/whitespace/atom.xml" rel="self"/>
   <link href="http://themespace.github.io/whitespace/"/>
-  <updated>2014-08-01T21:44:50+02:00</updated>
+  <updated>2014-08-01T21:49:36+02:00</updated>
   <id>http://themespace.github.io/whitespace/</id>
   <author>
     <name><![CDATA[Themespace]]></name>
@@ -18,7 +18,9 @@
     <link href="http://themespace.github.io/whitespace/blog/2014/07/12/check-the-whitespace-theme/"/>
     <updated>2014-07-12T06:53:44+02:00</updated>
     <id>http://themespace.github.io/whitespace/blog/2014/07/12/check-the-whitespace-theme</id>
-    <content type="html"><![CDATA[<p>This is a link post</p>
+    <content type="html"><![CDATA[<p>This is a demo blog for the Whitespace theme (for Octopress).
+This first post is a link post.
+Click the title to navigate to the theme&rsquo;s GitHub repository.</p>
 ]]></content>
   </entry>
   
