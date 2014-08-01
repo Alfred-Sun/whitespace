@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Whitespace | My Octopress Blog]]></title>
   <link href="http://themespace.github.io/whitespace/blog/categories/whitespace/atom.xml" rel="self"/>
   <link href="http://themespace.github.io/whitespace/"/>
-  <updated>2014-08-01T21:35:07+02:00</updated>
+  <updated>2014-08-01T21:39:59+02:00</updated>
   <id>http://themespace.github.io/whitespace/</id>
   <author>
     <name><![CDATA[Themespace]]></name>
@@ -14,95 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Check the Whitespace Theme]]></title>
+    <title type="html"><![CDATA[Check Out the Whitespace Theme README]]></title>
     <link href="http://themespace.github.io/whitespace/blog/2014/07/12/check-the-whitespace-theme/"/>
     <updated>2014-07-12T06:53:44+02:00</updated>
     <id>http://themespace.github.io/whitespace/blog/2014/07/12/check-the-whitespace-theme</id>
-    <content type="html"><![CDATA[<h1>Whitespace</h1>
-
-<p>Whitespace is a minimal and responsive theme for <a href="http://octopress.org">Octopress</a>. This theme lets your contents take the center stage of your blog.</p>
-
-<h2>Demos</h2>
-
-<p>Unmodified: <a href="http://lucaslew.com">Lucas Lew&rsquo;s blog</a>.</p>
-
-<p>Slightly customized: <a href="http://chymeric.eu">Chymeric Tutorials</a>, <a href="http://yous.be/">Yous' Blog</a></p>
-
-<p><em>If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!</em></p>
-
-<h2>Install</h2>
-
-<p><code>sh
-$ cd octopress
-$ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-$ rake install['whitespace']
-$ rake generate
-</code></p>
-
-<h2>Update</h2>
-
-<p><code>sh
-$ cd octopress/.themes/whitespace
-$ git pull
-$ rake install['whitespace']
-$ rake generate
-</code></p>
-
-<h2>Update and Keep Customizations</h2>
-
-<p><em>For this to work, you have to track your website theme customizations on a remote (we call it <code>mywebsiterepo</code>).</em></p>
-
-<p><code>sh
-$ cd octopress/.themes/whitespace
-$ git pull
-$ rake install['whitespace']
-$ cd ../..
-$ git fetch --all
-$ git reset --hard mywebsiterepo/master
-$ rake generate
-</code></p>
-
-<h2>Comment System</h2>
-
-<p>Added support for open-source <a href="https://github.com/phusion/juvia">Juvia</a> comment system. It requires two extra parameters in <code>_config.yml</code>: <code>juvia_site_key</code> and <code>juvia_host</code>.</p>
-
-<h2>Navigation Bar</h2>
-
-<p>You can add several icons to the navigation bar. Just set some parameters in <code>_config.yml</code>:</p>
-
-<ul>
-<li><code>googleplus_user</code> with <code>googleplus_hidden: false</code> for Google+ profile.</li>
-<li><code>pinboard_user</code> for Pinboard bookmarks.</li>
-<li><code>delicious_user</code> for Delicious bookmarks.</li>
-<li><code>github_user</code> with <code>github_show_profile_link: true</code> for GitHub profile.</li>
-<li><code>bitbucket_user</code> for Bitbucket profile.</li>
-</ul>
-
-
-<h2>External URL</h2>
-
-<p>You can write a <a href="http://en.wikipedia.org/wiki/Linklog">Linklog</a> by using this theme. To publish a linked post, just add <code>external-url</code> variable in the YAML front matter of your post.</p>
-
-<h2>``` yaml</h2>
-
-<p>layout: post
-&hellip;</p>
-
-<h2>external-url: <a href="http://example.com/some/external/url">http://example.com/some/external/url</a></h2>
-
-<p>```</p>
-
-<p>Then the title will have &lsquo;&rarr;&rsquo; at the end. Also the title link will point to the external url.</p>
-
-<h2>License</h2>
-
-<p>(The MIT License)</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   

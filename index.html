@@ -9,7 +9,8 @@
   <meta name="author" content="Themespace">
 
   
-  <meta name="description" content="Whitespace Whitespace is a minimal and responsive theme for Octopress. This theme lets your contents take the center stage of your blog. Demos &hellip;">
+  <meta name="description" content="
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -82,7 +83,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/whitespace/blog/2014/07/12/check-the-whitespace-theme/">Check the Whitespace Theme &rarr;</a></h1>
+      <h1 class="entry-title"><a href="/whitespace/blog/2014/07/12/check-the-whitespace-theme/">Check Out the Whitespace Theme README &rarr;</a></h1>
     
     
       <p class="meta">
@@ -105,110 +106,7 @@
   </header>
 
 
-  <div class="entry-content"><h1>Whitespace</h1>
-
-<p>Whitespace is a minimal and responsive theme for <a href="http://octopress.org">Octopress</a>. This theme lets your contents take the center stage of your blog.</p>
-
-<h2>Demos</h2>
-
-<p>Unmodified: <a href="http://lucaslew.com">Lucas Lew&rsquo;s blog</a>.</p>
-
-<p>Slightly customized: <a href="http://chymeric.eu">Chymeric Tutorials</a>, <a href="http://yous.be/">Yous&#8217; Blog</a></p>
-
-<p><em>If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!</em></p>
-
-<h2>Install</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress
-</span><span class='line'><span class="nv">$ </span>git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-</span><span class='line'><span class="nv">$ </span>rake install<span class="o">[</span><span class="s1">&#39;whitespace&#39;</span><span class="o">]</span>
-</span><span class='line'><span class="nv">$ </span>rake generate
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Update</h2>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress/.themes/whitespace
-</span><span class='line'><span class="nv">$ </span>git pull
-</span><span class='line'><span class="nv">$ </span>rake install<span class="o">[</span><span class="s1">&#39;whitespace&#39;</span><span class="o">]</span>
-</span><span class='line'><span class="nv">$ </span>rake generate
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Update and Keep Customizations</h2>
-
-<p><em>For this to work, you have to track your website theme customizations on a remote (we call it <code>mywebsiterepo</code>).</em></p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress/.themes/whitespace
-</span><span class='line'><span class="nv">$ </span>git pull
-</span><span class='line'><span class="nv">$ </span>rake install<span class="o">[</span><span class="s1">&#39;whitespace&#39;</span><span class="o">]</span>
-</span><span class='line'><span class="nv">$ </span><span class="nb">cd</span> ../..
-</span><span class='line'><span class="nv">$ </span>git fetch --all
-</span><span class='line'><span class="nv">$ </span>git reset --hard mywebsiterepo/master
-</span><span class='line'><span class="nv">$ </span>rake generate
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Comment System</h2>
-
-<p>Added support for open-source <a href="https://github.com/phusion/juvia">Juvia</a> comment system. It requires two extra parameters in <code>_config.yml</code>: <code>juvia_site_key</code> and <code>juvia_host</code>.</p>
-
-<h2>Navigation Bar</h2>
-
-<p>You can add several icons to the navigation bar. Just set some parameters in <code>_config.yml</code>:</p>
-
-<ul>
-<li><code>googleplus_user</code> with <code>googleplus_hidden: false</code> for Google+ profile.</li>
-<li><code>pinboard_user</code> for Pinboard bookmarks.</li>
-<li><code>delicious_user</code> for Delicious bookmarks.</li>
-<li><code>github_user</code> with <code>github_show_profile_link: true</code> for GitHub profile.</li>
-<li><code>bitbucket_user</code> for Bitbucket profile.</li>
-</ul>
-
-
-<h2>External URL</h2>
-
-<p>You can write a <a href="http://en.wikipedia.org/wiki/Linklog">Linklog</a> by using this theme. To publish a linked post, just add <code>external-url</code> variable in the YAML front matter of your post.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="nn">---</span>
-</span><span class='line'><span class="l-Scalar-Plain">layout</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">post</span>
-</span><span class='line'><span class="nn">...</span>
-</span><span class='line'><span class="l-Scalar-Plain">external-url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://example.com/some/external/url</span>
-</span><span class='line'><span class="nn">---</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then the title will have &lsquo;&rarr;&rsquo; at the end. Also the title link will point to the external url.</p>
-
-<h2>License</h2>
-
-<p>(The MIT License)</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+  <div class="entry-content">
 </div>
   
   
