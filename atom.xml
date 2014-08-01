@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://themespace.github.io/whitespace/atom.xml" rel="self"/>
   <link href="http://themespace.github.io/whitespace/"/>
-  <updated>2014-08-01T22:04:25+02:00</updated>
+  <updated>2014-08-01T22:09:46+02:00</updated>
   <id>http://themespace.github.io/whitespace/</id>
   <author>
     <name><![CDATA[Themespace]]></name>
@@ -25,8 +25,8 @@ All <em>other</em> posts on this website are auto-generated text and code to sho
 <!-- more -->
 
 
-<p>This first post is a link post.
-Click the title to navigate to the theme&rsquo;s GitHub repository &ndash; where you can also find links to real blogs using slightly customized versions of Whitespace.</p>
+<p><strong>This first post is a link post.
+Click the title to navigate to the theme&rsquo;s GitHub repository &ndash; where you can also find links to real blogs using slightly customized versions of Whitespace.</strong></p>
 ]]></content>
   </entry>
   
