@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Lorem | My Octopress Blog]]></title>
   <link href="http://themespace.github.io/whitespace/blog/categories/lorem/atom.xml" rel="self"/>
   <link href="http://themespace.github.io/whitespace/"/>
-  <updated>2014-08-01T21:49:36+02:00</updated>
+  <updated>2014-08-01T21:52:59+02:00</updated>
   <id>http://themespace.github.io/whitespace/</id>
   <author>
     <name><![CDATA[Themespace]]></name>
@@ -45,7 +45,7 @@ return var67
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Lorem Ipsum]]></title>
+    <title type="html"><![CDATA[Orem Lipsum]]></title>
     <link href="http://themespace.github.io/whitespace/blog/2014/05/11/orem-lipsum/"/>
     <updated>2014-05-11T14:40:32+02:00</updated>
     <id>http://themespace.github.io/whitespace/blog/2014/05/11/orem-lipsum</id>
