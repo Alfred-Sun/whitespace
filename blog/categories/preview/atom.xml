@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Preview, | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Preview | My Octopress Blog]]></title>
   <link href="http://themespace.github.io/whitespace/blog/categories/preview/atom.xml" rel="self"/>
   <link href="http://themespace.github.io/whitespace/"/>
-  <updated>2014-08-09T01:41:23+02:00</updated>
+  <updated>2014-08-11T05:15:34+02:00</updated>
   <id>http://themespace.github.io/whitespace/</id>
   <author>
     <name><![CDATA[Themespace]]></name>
