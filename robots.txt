@@ -2,4 +2,3 @@ User-agent: *
 Disallow:
 
 Sitemap: http://themespace.github.io/whitespace/sitemap.xml
-test
